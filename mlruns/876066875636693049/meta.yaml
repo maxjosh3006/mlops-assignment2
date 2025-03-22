@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/876066875636693049
+creation_time: 1742582772240
+experiment_id: '876066875636693049'
+last_update_time: 1742582772240
+lifecycle_stage: active
+name: fashion_mnist_experiment

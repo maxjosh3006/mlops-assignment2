@@ -1,0 +1,46 @@
+{
+    "eda_results": {
+        "class_distribution": {
+            "T-shirt/top": 376,
+            "Trouser": 429,
+            "Pullover": 418,
+            "Dress": 406,
+            "Coat": 393,
+            "Sandal": 396,
+            "Shirt": 421,
+            "Sneaker": 421,
+            "Bag": 365,
+            "Ankle boot": 375
+        },
+        "image_shape": [
+            28,
+            28
+        ],
+        "pixel_value_range": [
+            0.0,
+            255.0
+        ]
+    },
+    "feature_engineering_results": {
+        "n_original_features": 784,
+        "n_engineered_features": 839,
+        "pca_explained_variance_ratio": [
+            0.21862175501631412,
+            0.14549508765790287,
+            0.05518897426594335,
+            0.05127778429586047,
+            0.03993741727174559,
+            0.029889416448822266,
+            0.02636356488120109,
+            0.02428850835165355,
+            0.017896033813626058,
+            0.013709413835355979
+        ]
+    },
+    "model_selection_results": {
+        "best_score": 0.852,
+        "best_pipeline": "Pipeline(steps=[('robustscaler',\n                 RobustScaler(quantile_range=(0.2475690452454,\n                                              0.9671736154307))),\n                ('selectfwe', SelectFwe(alpha=0.0012903345738)),\n                ('featureunion-1',\n                 FeatureUnion(transformer_list=[('skiptransformer',\n                                                 SkipTransformer()),\n                                                ('passthrough',\n                                                 Passthrough())])),\n                ('featureunion-2',\n                 FeatureUnion(transformer_list=[('skiptransformer',\n                                                 SkipTransformer()),...\n                               feature_types=None, gamma=0.0153706668713,\n                               grow_policy=None, importance_type=None,\n                               interaction_constraints=None,\n                               learning_rate=0.0354272416933, max_bin=None,\n                               max_cat_threshold=None, max_cat_to_onehot=None,\n                               max_delta_step=None, max_depth=10,\n                               max_leaves=None, min_child_weight=15,\n                               missing=nan, monotone_constraints=None,\n                               multi_strategy=None, n_estimators=100, n_jobs=1,\n                               nthread=1, num_parallel_tree=None, ...))])",
+        "runtime_seconds": 3881.5937786102295
+    },
+    "drift_detection_results": {}
+}

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/876066875636693049/09aed9afc561419b8ba1221d822b97aa/artifacts
+end_time: 1742618195601
+entry_point_name: ''
+experiment_id: '876066875636693049'
+lifecycle_stage: active
+run_id: 09aed9afc561419b8ba1221d822b97aa
+run_name: melodic-shrike-531
+run_uuid: 09aed9afc561419b8ba1221d822b97aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742618009724
+status: 4
+tags: []
+user_id: mahek
