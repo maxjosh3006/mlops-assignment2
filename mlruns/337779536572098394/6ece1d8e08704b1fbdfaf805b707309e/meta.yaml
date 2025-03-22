@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/337779536572098394/6ece1d8e08704b1fbdfaf805b707309e/artifacts
+end_time: 1742658243182
+entry_point_name: ''
+experiment_id: '337779536572098394'
+lifecycle_stage: active
+run_id: 6ece1d8e08704b1fbdfaf805b707309e
+run_name: fashion_mnist_20250322_211351
+run_uuid: 6ece1d8e08704b1fbdfaf805b707309e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742658232505
+status: 3
+tags: []
+user_id: mahek

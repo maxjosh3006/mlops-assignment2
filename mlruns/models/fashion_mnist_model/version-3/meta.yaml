@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1742659832641
+current_stage: None
+description: ''
+last_updated_timestamp: 1742659832641
+name: fashion_mnist_model
+run_id: d41ba4f2c8d94d8a851267dfbaaaee35
+run_link: ''
+source: mlflow-artifacts:/337779536572098394/d41ba4f2c8d94d8a851267dfbaaaee35/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/337779536572098394/d41ba4f2c8d94d8a851267dfbaaaee35/artifacts/model
+user_id: null
+version: 3
